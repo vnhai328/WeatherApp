@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:weightSum="35">
+    <TextView
+        android:id="@+id/txvCurDate"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_weight="12"
+        android:text="Ngày"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:gravity="center|left"></TextView>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:src="@drawable/humidity">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txvHumidity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="00%"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgWeatherDaily"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_weight="6">
+    </ImageView>
+    <TextView
+        android:id="@+id/txvMinMax"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="min_max"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_weight="9"
+        android:gravity="center|right">
+    </TextView>
+</LinearLayout>

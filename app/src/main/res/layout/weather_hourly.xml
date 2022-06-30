@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="75dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txvTime"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:gravity="center">
+    </TextView>
+    <ImageView
+        android:id="@+id/imgWeatherHourly"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_gravity="center">
+    </ImageView>
+    <TextView
+        android:id="@+id/txvTem"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="00°"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center">
+    </TextView>
+    <TextView
+        android:id="@+id/txvHumid"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginTop="5dp"
+        android:text="00%"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:gravity="center">
+    </TextView>
+</LinearLayout>
